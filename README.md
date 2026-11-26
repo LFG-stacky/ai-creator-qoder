@@ -12,5 +12,14 @@
 - **短视频剧场 + 社区 8/4 双栏 + 创作者私信抽屉**：支持剧场预览直达关联作品、话题筛选、星级评价提交以及与任意创作者的一键私信互动。
 - **30 秒评委导览与全键盘快捷键**：首屏内置「30 秒亮点导览」，支持 `⌘K`/`/` 全站搜索、`1–6` 快速切页、`N` 发布作品、`?` 查看快捷键指南。
 
-## Qoder Sites 快速部署说明
-本工程根目录下的 `index.html` 为完整零依赖单文件应用（图片资源与矢量图标均已内联），无需额外构建即可直接通过 Qoder 部署至 **Qoder Sites** 开放公网访问。
+## 公网访问地址（已发布）
+
+| 用途 | 链接 |
+| :--- | :--- |
+| **在线体验（评委入口）** | https://lfg-stacky.github.io/ai-creator-qoder/ |
+| 演示短视频 | https://lfg-stacky.github.io/ai-creator-qoder/promo/ai_creator_promo_hype.mp4 |
+| 源码仓库 | https://github.com/LFG-stacky/ai-creator-qoder |
+
+## 部署说明
+
+本工程根目录下的 `index.html` 为完整零依赖单文件应用（图片资源与矢量图标均已内联），无需额外构建即可部署到任意静态托管平台（GitHub Pages / Vercel / Cloudflare Pages / Qoder Sites），也可直接把单个 `index.html` 上传至大赛平台。
