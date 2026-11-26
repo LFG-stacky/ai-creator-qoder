@@ -23,5 +23,18 @@
 - **全链路状态联动与验证**：实现前端本地状态持久化、购物车分账计算、经营图表动态联动与无依赖静态打包。
 - **公网部署**：作品为**零依赖单文件静态打包**（图片/图标全部内联，无后端依赖），已部署至 **GitHub Pages** 静态托管，公网开箱即用：https://lfg-stacky.github.io/ai-creator-qoder/ 。如主办方要求使用 **Qoder Sites** 提交，只需把根目录 `index.html` 上传即可一键复现完全一致的线上效果。
 
-## 五、界面截图展示
-> （发帖时建议附上以下 4 张电脑宽屏截图：1. 首页浅色/深色主视觉；2. 市场双栏筛选与横向对比台；3. 购物袋分账结算抽屉；4. 经营中心实时营收大屏）
+## 五、界面截图展示（可直接引用线上图片链接发帖）
+
+> 以下 6 张均为线上环境的真实运行截图，点击链接可直接在发帖编辑器中插入。
+
+1. **首页浅色主视觉**：https://lfg-stacky.github.io/ai-creator-qoder/screenshots/01-hero-light.png
+2. **首页深色主视觉（快捷键 `D`）**：https://lfg-stacky.github.io/ai-creator-qoder/screenshots/02-hero-dark.png
+3. **市场双栏筛选 + 对比台（已选 2/3）**：https://lfg-stacky.github.io/ai-creator-qoder/screenshots/03-market-compare.png
+4. **作品参数横向对比弹窗**：https://lfg-stacky.github.io/ai-creator-qoder/screenshots/04-compare-table.png
+5. **购物袋 80%/20% 透明分账抽屉**：https://lfg-stacky.github.io/ai-creator-qoder/screenshots/05-bag-split.png
+6. **经营中心实时营收大屏**：https://lfg-stacky.github.io/ai-creator-qoder/screenshots/06-business-dashboard.png
+
+![首页浅色主视觉](https://lfg-stacky.github.io/ai-creator-qoder/screenshots/01-hero-light.png)
+![市场双栏筛选与对比台](https://lfg-stacky.github.io/ai-creator-qoder/screenshots/03-market-compare.png)
+![购物袋 80%/20% 分账](https://lfg-stacky.github.io/ai-creator-qoder/screenshots/05-bag-split.png)
+![经营中心营收大屏](https://lfg-stacky.github.io/ai-creator-qoder/screenshots/06-business-dashboard.png)

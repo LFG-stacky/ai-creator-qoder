@@ -19,6 +19,18 @@
 | **在线体验（评委入口）** | https://lfg-stacky.github.io/ai-creator-qoder/ |
 | 演示短视频 | https://lfg-stacky.github.io/ai-creator-qoder/promo/ai_creator_promo_hype.mp4 |
 | 源码仓库 | https://github.com/LFG-stacky/ai-creator-qoder |
+| 参赛申报帖 | [TIANCHI_SUBMISSION_POST.md](TIANCHI_SUBMISSION_POST.md) |
+
+## 线上实拍截图（`screenshots/`）
+
+| 文件 | 内容 |
+| :--- | :--- |
+| `01-hero-light.png` | 首页浅色主视觉（苹果极简首页） |
+| `02-hero-dark.png` | 首页深色主视觉（快捷键 `D` 切换） |
+| `03-market-compare.png` | 市场双栏筛选 + 已选 2/3 件对比台 |
+| `04-compare-table.png` | 作品参数横向对比弹窗 |
+| `05-bag-split.png` | 购物袋 80%/20% 透明分账抽屉 |
+| `06-business-dashboard.png` | 经营中心实时营收大屏 |
 
 ## 部署说明
 
