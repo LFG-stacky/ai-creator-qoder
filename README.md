@@ -16,7 +16,8 @@
 
 | 用途 | 链接 |
 | :--- | :--- |
-| **在线体验（评委入口）** | https://lfg-stacky.github.io/ai-creator-qoder/ |
+| **在线体验（Qoder Sites 部署，评委入口）** | https://ai-creator-scmxivlay9g.qoder.website/ |
+| 备用镜像（GitHub Pages，内容一致） | https://lfg-stacky.github.io/ai-creator-qoder/ |
 | 演示短视频 | https://lfg-stacky.github.io/ai-creator-qoder/promo/ai_creator_promo_hype.mp4 |
 | 源码仓库 | https://github.com/LFG-stacky/ai-creator-qoder |
 | 参赛申报帖 | [TIANCHI_SUBMISSION_POST.md](TIANCHI_SUBMISSION_POST.md) |

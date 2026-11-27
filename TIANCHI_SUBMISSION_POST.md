@@ -1,7 +1,8 @@
 # 【2026 Qoder 高校创造力大赛】AI CREATOR：苹果极简风 AI 创作者社区与透明分账交易平台
 
 ## 一、项目访问地址
-- **公网体验地址（已上线，可直接公网打开）**：https://lfg-stacky.github.io/ai-creator-qoder/
+- **公网体验地址（Qoder Sites 部署，公开访问）**：https://ai-creator-scmxivlay9g.qoder.website/
+- **备用镜像（GitHub Pages，内容一致）**：https://lfg-stacky.github.io/ai-creator-qoder/
 - **演示短视频直链（可直接播放/下载）**：https://lfg-stacky.github.io/ai-creator-qoder/promo/ai_creator_promo_hype.mp4
 - **开源代码仓库**：https://github.com/LFG-stacky/ai-creator-qoder
 - **演示短视频外链（可选）**：如需发布至抖音/小红书，可在标题中包含「2026 Qoder 高校创造力大赛」后填入此链接
@@ -21,7 +22,7 @@
 ## 四、使用 Qoder 开发与部署过程
 - **需求拆解与界面迭代**：依托 Qoder 进行组件结构梳理、Apple Design System 视觉重构、宽屏双栏适配与矢量图标系统替换。
 - **全链路状态联动与验证**：实现前端本地状态持久化、购物车分账计算、经营图表动态联动与无依赖静态打包。
-- **公网部署**：作品为**零依赖单文件静态打包**（图片/图标全部内联，无后端依赖），已部署至 **GitHub Pages** 静态托管，公网开箱即用：https://lfg-stacky.github.io/ai-creator-qoder/ 。如主办方要求使用 **Qoder Sites** 提交，只需把根目录 `index.html` 上传即可一键复现完全一致的线上效果。
+- **公网部署**：作品为**零依赖单文件静态打包**（图片/图标全部内联，无后端依赖），用 Qoder CLI 的 `qoder sites` 打包上传并发布为 **Qoder Sites** 公开站点：https://ai-creator-scmxivlay9g.qoder.website/ （同时保留 GitHub Pages 镜像）。
 
 ## 五、界面截图展示（可直接引用线上图片链接发帖）
 
