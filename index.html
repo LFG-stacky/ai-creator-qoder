@@ -44,7 +44,7 @@
       --ease-apple: cubic-bezier(0.25, 0.1, 0.25, 1);
       --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
       --nav-h: 68px;
-      --container-max: 1360px;
+      --container-max: clamp(1360px, 86vw, 2320px);
       color-scheme: light;
     }
 
@@ -575,6 +575,27 @@
       .mobile-quick-nav .mobile-publish-fab { width: 42px; height: 42px; border-radius: 50%; background: var(--accent); color: #fff; }
       .apple-footer { padding-bottom: 92px; }
       .back-to-top-btn { bottom: 80px; right: 14px; }
+    }
+
+    /* ---- 大屏 / 宽屏桌面自适应（1600px 以上逐步铺满，避免两侧大量留白）---- */
+    @media (min-width: 1600px) {
+      .container, .nav-inner { padding-inline: 48px; }
+    }
+    @media (min-width: 1800px) {
+      .product-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+      .shorts-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+      .market-desktop-layout { grid-template-columns: 300px minmax(0, 1fr); gap: 36px; }
+      .community-desktop-layout { grid-template-columns: minmax(0, 9fr) 380px; gap: 36px; }
+      .metrics-strip { gap: 44px; }
+      .hero-subtitle { max-width: 760px; }
+    }
+    @media (min-width: 2100px) {
+      .container, .nav-inner { padding-inline: 64px; }
+      .product-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 28px; }
+      .apple-hero h1 { font-size: clamp(52px, 4.6vw, 92px); }
+      .section-head h2 { font-size: clamp(34px, 2.6vw, 54px); }
+      .metric-item strong { font-size: clamp(40px, 3vw, 60px); }
+      .hero-subtitle { font-size: clamp(18px, 1.15vw, 23px); max-width: 840px; }
     }
   </style>
 </head>
